@@ -5,15 +5,35 @@ Rules claiming more threads will be scaled down.
 Provided resources: mem_mb=32000, mem_mib=30518, disk_mb=1000, disk_mib=954, time=240, threads=8, nodes=1
 Select jobs to execute...
 
-[Tue Dec  3 23:16:09 2024]
+[Wed Dec  4 00:30:26 2024]
 Job 0: Running FastQC on S2
 Reason: Missing output files: Checks/1.1-RawFastQC_S2.done
 
 
-        mkdir -p 1-Preprocessing/FastQC/Raw/ &&         fastqc 0-raw/S2_R1_downsampled.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         fastqc 0-raw/S2_R2_downsampled.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         touch Checks/1.1-RawFastQC_S2.done
+        mkdir -p 1-Preprocessing/FastQC/Raw/ &&         fastqc 0-raw/S2_R1.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         fastqc 0-raw/S2_R2.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         touch Checks/1.1-RawFastQC_S2.done
     
-Started analysis of S2_R1_downsampled.fastq.gz
-Started analysis of S2_R2_downsampled.fastq.gz
-[Tue Dec  3 23:16:21 2024]
+Started analysis of S2_R1.fastq.gz
+Approx 10% complete for S2_R1.fastq.gz
+Approx 20% complete for S2_R1.fastq.gz
+Approx 30% complete for S2_R1.fastq.gz
+Approx 35% complete for S2_R1.fastq.gz
+Approx 50% complete for S2_R1.fastq.gz
+Approx 60% complete for S2_R1.fastq.gz
+Approx 70% complete for S2_R1.fastq.gz
+Approx 80% complete for S2_R1.fastq.gz
+Approx 90% complete for S2_R1.fastq.gz
+Approx 100% complete for S2_R1.fastq.gz
+Started analysis of S2_R2.fastq.gz
+Approx 10% complete for S2_R2.fastq.gz
+Approx 20% complete for S2_R2.fastq.gz
+Approx 25% complete for S2_R2.fastq.gz
+Approx 35% complete for S2_R2.fastq.gz
+Approx 50% complete for S2_R2.fastq.gz
+Approx 60% complete for S2_R2.fastq.gz
+Approx 65% complete for S2_R2.fastq.gz
+Approx 75% complete for S2_R2.fastq.gz
+Approx 90% complete for S2_R2.fastq.gz
+Approx 100% complete for S2_R2.fastq.gz
+[Wed Dec  4 00:30:34 2024]
 Finished job 0.
 1 of 1 steps (100%) done

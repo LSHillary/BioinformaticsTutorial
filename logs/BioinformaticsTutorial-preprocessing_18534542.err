@@ -1,0 +1,60 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job stats:
+job          count    min threads    max threads
+---------  -------  -------------  -------------
+RawFastQC        3              8              8
+all              1              1              1
+total            4              1              8
+
+Select jobs to execute...
+
+[Wed Dec  4 00:30:20 2024]
+Job 2: Running FastQC on S2
+Reason: Missing output files: Checks/1.1-RawFastQC_S2.done; Set of input files has changed since last execution
+
+
+        mkdir -p 1-Preprocessing/FastQC/Raw/ &&         fastqc 0-raw/S2_R1.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         fastqc 0-raw/S2_R2.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         touch Checks/1.1-RawFastQC_S2.done
+    
+Submitted job 2 with external jobid '18534543'.
+
+[Wed Dec  4 00:30:23 2024]
+Job 1: Running FastQC on S1
+Reason: Missing output files: Checks/1.1-RawFastQC_S1.done; Set of input files has changed since last execution
+
+
+        mkdir -p 1-Preprocessing/FastQC/Raw/ &&         fastqc 0-raw/S1_R1.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         fastqc 0-raw/S1_R2.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         touch Checks/1.1-RawFastQC_S1.done
+    
+Submitted job 1 with external jobid '18534544'.
+
+[Wed Dec  4 00:30:23 2024]
+Job 3: Running FastQC on S3
+Reason: Missing output files: Checks/1.1-RawFastQC_S3.done; Set of input files has changed since last execution
+
+
+        mkdir -p 1-Preprocessing/FastQC/Raw/ &&         fastqc 0-raw/S3_R1.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         fastqc 0-raw/S3_R2.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         touch Checks/1.1-RawFastQC_S3.done
+    
+Submitted job 3 with external jobid '18534545'.
+[Wed Dec  4 00:30:41 2024]
+Finished job 2.
+1 of 4 steps (25%) done
+[Wed Dec  4 00:30:41 2024]
+Finished job 1.
+2 of 4 steps (50%) done
+[Wed Dec  4 00:30:42 2024]
+Finished job 3.
+3 of 4 steps (75%) done
+Select jobs to execute...
+
+[Wed Dec  4 00:30:42 2024]
+localrule all:
+    input: Checks/1.1-RawFastQC_S1.done, Checks/1.1-RawFastQC_S2.done, Checks/1.1-RawFastQC_S3.done
+    jobid: 0
+    reason: Input files updated by another job: Checks/1.1-RawFastQC_S1.done, Checks/1.1-RawFastQC_S3.done, Checks/1.1-RawFastQC_S2.done
+    resources: mem_mb=24000, mem_mib=22889, disk_mb=1000, disk_mib=954, tmpdir=/tmp, time=240, partition=high2, threads=8, nodes=1, account=jbemersogrp
+
+[Wed Dec  4 00:30:42 2024]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: .snakemake/log/2024-12-04T003018.532880.snakemake.log

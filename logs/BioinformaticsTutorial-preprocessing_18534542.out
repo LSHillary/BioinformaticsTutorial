@@ -1,0 +1,27 @@
+==========================================
+SLURM_JOB_ID = 18534542
+SLURM_NODELIST = cpu-4-86
+==========================================
+
+############### Job 18534542 summary ###############
+Name                : BioinformaticsTutorial-preprocessing
+User                : lhillary
+Account             : jbemersogrp
+Partition           : high2
+Nodes               : cpu-4-86
+Cores               : 2
+GPUs                : 0
+State               : COMPLETED
+ExitCode            : 0:0
+Submit              : 2024-12-04T00:30:12
+Start               : 2024-12-04T00:30:13
+End                 : 2024-12-04T00:30:52
+Reserved walltime   : 3-10:00:00
+Used walltime       :   00:00:39
+Used CPU time       :   00:00:09
+% User (Computation): 55.98%
+% System (I/O)      : 44.01%
+Mem reserved        : 4000M
+Max Mem used        : 78.83M (cpu-4-86)
+Max Disk Write      : 71.68K (cpu-4-86)
+Max Disk Read       : 94.67M (cpu-4-86)

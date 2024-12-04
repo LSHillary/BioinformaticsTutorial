@@ -3,8 +3,8 @@
 # Rule 1.1 - Run FastQC on merged runs
 rule RawFastQC:
     input:
-        ForRaw = "0-raw/{sample}_R1_downsampled.fastq.gz",
-        RevRaw = "0-raw/{sample}_R2_downsampled.fastq.gz",
+        ForRaw = "0-raw/{sample}_R1.fastq.gz",
+        RevRaw = "0-raw/{sample}_R2.fastq.gz",
     output:
         CheckRawFastQC = "Checks/1.1-RawFastQC_{sample}.done"
     params:

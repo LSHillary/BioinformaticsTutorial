@@ -1,0 +1,27 @@
+==========================================
+SLURM_JOB_ID = 18534528
+SLURM_NODELIST = cpu-4-86
+==========================================
+
+############### Job 18534528 summary ###############
+Name                : SoilFire-preprocessing
+User                : lhillary
+Account             : ctbrowngrp
+Partition           : high2
+Nodes               : cpu-4-86
+Cores               : 2
+GPUs                : 0
+State               : FAILED
+ExitCode            : 1:0
+Submit              : 2024-12-03T23:53:39
+Start               : 2024-12-03T23:53:39
+End                 : 2024-12-03T23:53:47
+Reserved walltime   : 3-10:00:00
+Used walltime       :   00:00:08
+Used CPU time       :   00:00:07
+% User (Computation): 61.66%
+% System (I/O)      : 38.34%
+Mem reserved        : 4000M
+Max Mem used        : 24.00K (cpu-4-86)
+Max Disk Write      : 0.00  (cpu-4-86)
+Max Disk Read       : 0.00  (cpu-4-86)

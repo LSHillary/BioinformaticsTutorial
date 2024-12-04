@@ -21,7 +21,7 @@
     "terminal.integrated.fontFamily": "SF Mono",
     "//h": "Make the text big enough to be comfortable",
     "editor.fontWeight": "600",
-    "editor.fontSize": 24,
+    "editor.fontSize": 12,
     "terminal.integrated.fontWeight": "800",
     "terminal.integrated.fontSize": 28,
     "//i": "Rely on a simple shell, avoid fancy configuration",

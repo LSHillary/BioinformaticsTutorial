@@ -1,0 +1,8 @@
+Building DAG of jobs...
+MissingInputException in rule RawFastQC in file /group/jbemersogrp/BioinformaticsSetup/BioinformaticsTutorial/scripts/1-Preprocessing.smk, line 4:
+Missing input files for rule RawFastQC:
+    output: Checks/1.1-RawFastQC_S1.done
+    wildcards: sample=S1
+    affected files:
+        0-raw/S1_R2_downsampled.fastq.gz
+        0-raw/S1_R1_downsampled.fastq.gz

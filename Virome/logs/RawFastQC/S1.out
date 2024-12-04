@@ -1,13 +1,13 @@
 ==========================================
-SLURM_JOB_ID = 18534504
+SLURM_JOB_ID = 18534544
 SLURM_NODELIST = cpu-4-86
 ==========================================
 application/gzip
-Analysis complete for S1_R1_downsampled.fastq.gz
+Analysis complete for S1_R1.fastq.gz
 application/gzip
-Analysis complete for S1_R2_downsampled.fastq.gz
+Analysis complete for S1_R2.fastq.gz
 
-############### Job 18534504 summary ###############
+############### Job 18534544 summary ###############
 Name                : S1-RawFastQC
 User                : lhillary
 Account             : jbemersogrp
@@ -17,15 +17,15 @@ Cores               : 8
 GPUs                : 0
 State               : COMPLETED
 ExitCode            : 0:0
-Submit              : 2024-12-03T23:16:04
-Start               : 2024-12-03T23:16:05
-End                 : 2024-12-03T23:16:21
+Submit              : 2024-12-04T00:30:23
+Start               : 2024-12-04T00:30:24
+End                 : 2024-12-04T00:30:34
 Reserved walltime   : 04:00:00
-Used walltime       : 00:00:16
-Used CPU time       : 00:00:10
-% User (Computation): 67.40%
-% System (I/O)      : 32.60%
+Used walltime       : 00:00:10
+Used CPU time       : 00:00:15
+% User (Computation): 75.74%
+% System (I/O)      : 24.26%
 Mem reserved        : 32000M
-Max Mem used        : 0.00  (cpu-4-86)
+Max Mem used        : 124.00K (cpu-4-86)
 Max Disk Write      : 0.00  (cpu-4-86)
-Max Disk Read       : 0.00  (cpu-4-86)
+Max Disk Read       : 10.24K (cpu-4-86)
