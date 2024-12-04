@@ -1,0 +1,7 @@
+Sample	Filename	File type	Encoding	Total Sequences	Total Bases	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	basic_statistics	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+S1_R1_downsampled	S1_R1_downsampled.fastq.gz	null	Illumina 1.5	0.0	0 bp	0.0	0.0	0.0	100.0	pass	pass	pass	pass	pass	pass	pass	warn
+S1_R2_downsampled	S1_R2_downsampled.fastq.gz	null	Illumina 1.5	0.0	0 bp	0.0	0.0	0.0	100.0	pass	pass	pass	pass	pass	pass	pass	warn
+S2_R1_downsampled	S2_R1_downsampled.fastq.gz	null	Illumina 1.5	0.0	0 bp	0.0	0.0	0.0	100.0	pass	pass	pass	pass	pass	pass	pass	warn
+S2_R2_downsampled	S2_R2_downsampled.fastq.gz	null	Illumina 1.5	0.0	0 bp	0.0	0.0	0.0	100.0	pass	pass	pass	pass	pass	pass	pass	warn
+S3_R1_downsampled	S3_R1_downsampled.fastq.gz	null	Illumina 1.5	0.0	0 bp	0.0	0.0	0.0	100.0	pass	pass	pass	pass	pass	pass	pass	warn
+S3_R2_downsampled	S3_R2_downsampled.fastq.gz	null	Illumina 1.5	0.0	0 bp	0.0	0.0	0.0	100.0	pass	pass	pass	pass	pass	pass	pass	warn

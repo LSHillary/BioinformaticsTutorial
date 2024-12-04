@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        }
+    ],
+    "settings": {
+        "window.title": "Bioinformatics Tutorial",
+        "workbench.colorTheme": "Solarized-light",
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#8f00a4",
+            "titleBar.activeForeground": "#ffffff",
+            "statusBar.background": "#8f00a4",
+            "statusBar.foreground": "#ffffff"
+        }
+    }
+}

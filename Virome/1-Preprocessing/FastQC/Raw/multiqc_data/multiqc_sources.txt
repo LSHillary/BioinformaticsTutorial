@@ -1,0 +1,7 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	S2_R1_downsampled	/group/jbemersogrp/BioinformaticsSetup/Tutorial/Virome/1-Preprocessing/FastQC/Raw/S2_R1_downsampled_fastqc.zip
+FastQC	all_sections	S1_R1_downsampled	/group/jbemersogrp/BioinformaticsSetup/Tutorial/Virome/1-Preprocessing/FastQC/Raw/S1_R1_downsampled_fastqc.zip
+FastQC	all_sections	S2_R2_downsampled	/group/jbemersogrp/BioinformaticsSetup/Tutorial/Virome/1-Preprocessing/FastQC/Raw/S2_R2_downsampled_fastqc.zip
+FastQC	all_sections	S1_R2_downsampled	/group/jbemersogrp/BioinformaticsSetup/Tutorial/Virome/1-Preprocessing/FastQC/Raw/S1_R2_downsampled_fastqc.zip
+FastQC	all_sections	S3_R1_downsampled	/group/jbemersogrp/BioinformaticsSetup/Tutorial/Virome/1-Preprocessing/FastQC/Raw/S3_R1_downsampled_fastqc.zip
+FastQC	all_sections	S3_R2_downsampled	/group/jbemersogrp/BioinformaticsSetup/Tutorial/Virome/1-Preprocessing/FastQC/Raw/S3_R2_downsampled_fastqc.zip

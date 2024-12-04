@@ -1,0 +1,19 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=32000, mem_mib=30518, disk_mb=1000, disk_mib=954, time=240, threads=8, nodes=1
+Select jobs to execute...
+
+[Tue Dec  3 23:16:09 2024]
+Job 0: Running FastQC on S3
+Reason: Missing output files: Checks/1.1-RawFastQC_S3.done
+
+
+        mkdir -p 1-Preprocessing/FastQC/Raw/ &&         fastqc 0-raw/S3_R1_downsampled.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         fastqc 0-raw/S3_R2_downsampled.fastq.gz -o 1-Preprocessing/FastQC/Raw/ -t 8 &&         touch Checks/1.1-RawFastQC_S3.done
+    
+Started analysis of S3_R1_downsampled.fastq.gz
+Started analysis of S3_R2_downsampled.fastq.gz
+[Tue Dec  3 23:16:21 2024]
+Finished job 0.
+1 of 1 steps (100%) done
